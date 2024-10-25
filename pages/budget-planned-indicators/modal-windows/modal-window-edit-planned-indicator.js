@@ -126,6 +126,7 @@ const fillEditModalPlannedIndicatorCounterpartySelect = () => {
     });
     select.appendChild(optionSelect);
   });
+  
   if (editPlannedIndicatorState.contractsAddData.length > 0)
     select.disabled = true;
   else select.disabled = false;

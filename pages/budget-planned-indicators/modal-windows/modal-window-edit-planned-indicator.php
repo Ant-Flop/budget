@@ -1,8 +1,8 @@
 <div id='modal-window-edit-planned-indicator' class='modal-window unselectable'>
-  <div class='modal-window-content'>
-    <span class='modal-close' onclick='modalEditPlannedIndicatorCloseOnClick()'>&times;</span>
-    <div class='text-2'>Редагування запису</div>
-    <?php
+    <div class='modal-window-content'>
+        <span class='modal-close' onclick='modalEditPlannedIndicatorCloseOnClick()'>&times;</span>
+        <div class='text-2'>Редагування запису</div>
+        <?php
     if ($fin_dir_role) {
       echo "<div class='modal-input modal-tooltip-wrapper'>
                       <span class='modal-tooltip'>Контрагент</span>
@@ -55,8 +55,8 @@
       echo "<div class='modal-input modal-tooltip-wrapper'>
                         <span class='modal-tooltip'>Контрагент</span>
                         <div id='modal-edit-planned-indicator-counterparty-wrapper-select'>
-                            <select id='modal-edit-planned-indicator-counterparty__select' class='counterparty-select' title='Контрагент'>
-                            </select>
+                            <select id='modal-edit-planned-indicator-counterparty__select' class='counterparty-select js-example-basic-multiple' title='Контрагент' name='states[]' multiple='multiple'>
+                        </select>
                         </div>
                       </div><br />
                       <div class='modal-input modal-tooltip-wrapper' id='modal-edit-contracts-wrapper-id' hidden>
@@ -102,8 +102,8 @@
                       </div>";
     }
     ?>
-    <div class='modal-button'>
-      <button id='modal-button-save' onclick='modalEditPlannedIndicatorSaveOnClick()'>Зберегти</button>
+        <div class='modal-button'>
+            <button id='modal-button-save' onclick='modalEditPlannedIndicatorSaveOnClick()'>Зберегти</button>
+        </div>
     </div>
-  </div>
 </div>
