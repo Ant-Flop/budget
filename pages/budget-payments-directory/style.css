@@ -1,0 +1,235 @@
+.main-header-filter {
+    width: 150px;
+    padding: 12px 5px 0 5px;
+}
+
+.date-filter__input {
+    background-color: #f4f8ff !important;
+    border: 1px solid #051225 !important;
+    color: #444;
+    height: 30px !important;
+    border-radius: 3px !important;
+    text-align: center;
+    border-color: #999ca3 !important;
+    padding: 0 5px 0 0;
+}
+
+.table-column-id,
+.table-column-actions,
+.table-column-status {
+    width: auto;
+    white-space: nowrap;
+}
+
+
+/* .table-column-date {
+    min-width: 200px;
+} */
+
+tbody td {
+    word-break: normal;
+}
+
+#sign-planned-indicator {
+    width: 50px;
+    border: 1px solid #b7c4db;
+    border-radius: 5px;
+    background: #f7fbff;
+    padding: 4px;
+    margin: 2px 7px 0 0;
+    float: right;
+}
+
+.cross-element-1 {
+    width: 4px;
+    height: 17px;
+    background-color: #ff4a4b;
+    transform: rotate(45deg);
+    margin: 0 0 0 17px;
+}
+
+.cross-element-2 {
+    width: 4px;
+    height: 17px;
+    background-color: #ff4a4b;
+    transform: rotate(-90deg);
+}
+
+.check-mark-element-1 {
+    width: 4px;
+    height: 18px;
+    background: #028b41;
+    transform: rotate(35deg);
+    margin: 0 0 0 20px;
+}
+
+.check-mark-element-2 {
+    width: 4px;
+    height: 10px;
+    background: #028b41;
+    transform: rotate(-55deg);
+    margin: -10px 0 0 13px;
+}
+
+.main-footer-title {
+    color: #1c1c1c;
+}
+
+.footer-table-bar {
+    display: inline-flex;
+}
+
+.footer-table-bar-item {
+    margin: 5px;
+}
+
+.footer-table-bar-item:first-child {
+    width: 224px;
+}
+
+#budget-article-code-filter .footer-span:first-child {
+    padding: 0 0 0 50px;
+}
+
+.select2-container .select2-selection--single {
+    width: 150px;
+    background-color: #f4f8ff !important;
+    border: 1px solid #051225 !important;
+    height: 30px !important;
+    border-radius: 3px !important;
+    border-color: #999ca3 !important;
+}
+
+.select2-dropdown {
+    width: 150px !important;
+}
+
+.select2-selection__arrow {
+    left: 125px;
+}
+
+.main-footer-title {
+    font-size: 16pt;
+}
+
+#main-table-th-id,
+#main-table-th-checkbox,
+#main-table-th-order-number,
+#main-table-th-date,
+#main-table-th-old-code,
+#main-table-th-new-code {
+    width: auto !important;
+}
+
+#table-column-payment-type {
+    max-width: 500px;
+}
+
+.main-table-th-counterparty,
+.table-column-date {
+    white-space: nowrap;
+}
+
+#main-table-th-counterparty {
+    width: auto;
+    min-width: 300px;
+}
+
+
+tbody .table-column-old-code {
+    min-width: 170px;
+    padding: 5px 150px 5px 0;
+}
+
+tbody .table-column-new-code {
+    min-width: 170px;
+    padding: 5px 150px 5px 0;
+}
+
+
+
+
+/*******************************/
+
+/* style for native select */
+
+/* table select {
+    background-color: #f4f8ff !important;
+    height: 30px !important;
+    font-family: system-ui;
+    border-radius: 3px !important;
+    border-color: #999ca3 !important;
+    padding: 5px;
+} */
+
+/*******************************/
+
+
+.paginator {
+    display: inline-flex;
+    margin: 10px;
+    max-width: 1000px;
+    overflow-x: auto;
+}
+
+.paginator-item {
+    margin: 0 1px 0 1px;
+}
+
+.paginator-item button {
+    width: 35px;
+    height: 30px;
+    border-radius: 0.1px;
+    border: 1px solid #a39db1;
+    cursor: pointer;
+}
+
+.paginator-item button:hover {
+    background-color: #ddd;
+}
+
+.paginator-item-active {
+    background-color: #cbd6ed
+}
+
+.add-select-table-bar {
+    margin: 4px;
+    padding: 6px 5px 5px 5px;
+}
+
+.above-table-bar-select {
+    padding: 0 150px 0 0;
+}
+
+#spinner-loader-id {
+    padding: 20px 0 0 0;
+    min-height: 80px;
+}
+
+.additional-purpose__button {
+    margin: 0 10px 0 0;
+    width: 25px;
+    padding: 0;
+    height: 25px;
+}
+
+.table-column-sum {
+    text-align: left;
+    white-space: nowrap;
+}
+
+#main-table-th-sum  {
+    white-space: nowrap;
+    width: auto;
+    min-width: 150px;
+}
+
+#main-table-th-date {
+    min-width: 100px;
+}
+
+.disabled .select2-container .select2-selection--single {
+    background-color: #fff !important;
+}
+
+

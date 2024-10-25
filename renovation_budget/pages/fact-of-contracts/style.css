@@ -1,0 +1,216 @@
+.above-table-bar {
+  display: flex;
+  flex-wrap: wrap;
+  color: #444;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.above-table-bar-element {
+  margin: 5px 0 0 0;
+}
+
+#fact-of-contracts-table {
+  overflow: auto;
+  max-height: calc(100vh - 250px); /* 300 */
+}
+
+#name-article-fact-of-contracts-id,
+#contract-number-fact-of-contract-id,
+#counterparty-fact-of-contract-id,
+#sum-of-contract-with-pdv-fact-of-contract-id,
+#balance-of-contract-with-pdv-fact-of-contract-id,
+#start-date-filter-id,
+#end-date-filter-id {
+  margin: 5px;
+  padding: 5px;
+}
+
+.table-column-id {
+  width: 20px !important;
+}
+
+.table-column-amount-remainder {
+  max-width: 100px !important;
+}
+.table-column-remainder,
+.table-column-amount {
+  max-width: 100px !important;
+}
+
+th {
+  width: 1000vh !important;
+}
+
+
+.table-th-colspan-foot-background-1 {
+  background: linear-gradient(#a2b4d7, #91a6cf);
+}
+
+.table-th-colspan-foot-background-2 {
+  background: linear-gradient(#92a7d0, #7893c5);
+}
+
+.table-th-sticky-second-row {
+  top: 38px;
+}
+
+thead .sticky-table-column {
+  z-index: 4;
+  left: 0;
+  top: 0;
+  position: relative !important;
+}
+
+/* .table-column-name {
+  max-width: 150px !important;
+} */
+
+.table-column-cost-service {
+  width: auto !important;
+}
+
+.table-column-price {
+  white-space: nowrap;
+  width: auto !important;
+}
+
+.table-column-cost {
+  white-space: nowrap;
+  width: auto !important;
+}
+
+.table-column-sum {
+  white-space: nowrap;
+  width: auto !important;
+}
+
+/* .table-column-article_name {
+  max-width: 150px !important;
+} */
+
+/* .table-column-type {
+  max-width: 100px !important;
+} */
+
+.table-column-blank-5 {
+  white-space: nowrap;
+}
+
+.th-second-head-fact {
+  min-width: 200px;
+}
+
+tbody .sticky-table-column,
+tfoot .sticky-table-column {
+  z-index: 3;
+  left: 0;
+  position: relative ;
+}
+
+.table-td-colspan-blue-background {
+  background: #c1d4ea;
+}
+
+.table-td-colspan-blue-font {
+  color: #174497;
+  font-weight: 600;
+}
+
+.table-td-colspan-red-font {
+  color: #bd0707;
+  font-weight: 600;
+}
+
+th {
+  max-height: 138px !important;
+  padding: 4px 4px;
+  width: auto;
+}
+
+.selected-td {
+  background: #d3f1dc !important;
+}
+
+/* .fixed-row {
+  position: sticky !important;
+  top: 40px; 
+  z-index: 5;
+  background: #fff;
+  box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.4);
+} */
+
+.th-width-auto {
+  /* width: auto; */
+}
+
+.th-nowrap {
+    white-space: nowrap;
+}
+
+.th-act-card {
+  background: #bacdef;
+}
+
+.table-column-type {
+  width: 100px;
+}
+
+.select2-container .select2-selection--single,
+#sum-of-contract-with-pdv-input-id,
+#balance-of-contract-with-pdv-input-id,
+#start-date-id,
+#end-date-id {
+  width: 200px;
+  font-size: 14px;
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  color: #444;
+  height: 30px !important;
+  border-radius: 3px !important;
+  text-align: center;
+  border-color: #999ca3 !important;
+}
+
+#start-date-id,
+#end-date-id {
+  width: 160px;
+  padding: 5px;
+}
+
+#name-article-fact-of-contracts-id
+  .select2-container
+  .select2-selection--single {
+  width: 300px !important;
+}
+
+hr {
+  margin: 5px 0 5px 0;
+}
+
+#spinner-loader-id {
+  padding: 20px 0 0 0;
+  visibility: hidden;
+  min-height: 80px;
+}
+
+td {
+  padding: 2px !important;
+}
+
+.selected-td {
+  background: #d3f1dc !important;
+}
+
+tfoot {
+  position: sticky;
+  bottom: 0;
+  z-index: 5;
+}
+
+@media (max-width: 1310px) {
+  #fact-of-contracts-table {
+    overflow: auto;
+    max-height: calc(100vh - 300px); /* 300 */
+  }
+}

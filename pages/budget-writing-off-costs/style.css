@@ -1,0 +1,29 @@
+.select2-container .select2-selection--single {
+    width: 200px;
+    background-color: #f4f8ff !important;
+    border: 1px solid #051225 !important;
+    height: 30px !important;
+    border-radius: 3px !important;
+    border-color: #999ca3 !important;
+}
+
+.select2-container--default {
+    width: 200px !important; 
+}
+
+.add-select-table-bar {
+    margin: 5px;
+    padding: 5px;
+}    
+
+#main-table th {
+    width: auto;
+}
+
+#main-table .last-td {
+    width: 1000vh;
+}
+
+tbody td {
+    white-space: nowrap;
+}

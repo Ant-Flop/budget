@@ -1,0 +1,183 @@
+.above-table-bar,
+.under-table-bar {
+  display: flex;
+  flex-wrap: wrap;
+  color: #444;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.under-table-bar {
+  min-height: 50px;
+}
+
+.above-table-bar-element {
+  margin: 5px 0 0 0;
+}
+
+#add-service-id,
+#edit-mode-id,
+#name-contract-treaty-id,
+#term-contract-treaty-id {
+  margin: 4px;
+  padding: 6px 5px 5px 5px;
+}
+
+#name-contract-treaty-add,
+#term-contract-treaty-add,
+#term-of-contract-input {
+  width: 200px;
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border-color: #999ca3 !important;
+  padding: 10px;
+}
+
+#add-service-id button,
+#edit-mode-id button {
+  font-size: 14px;
+  cursor: pointer;
+  width: 110px;
+  height: 30px;
+  border-radius: 3px;
+  padding: 4px 4px;
+  background-color: #eaf0ff;
+  border: 1px solid #999ca3;
+}
+
+#edit-mode-id button {
+  color: #444;
+  background-color: #ffeeee;
+}
+
+#treaty-edit-mode {
+  width: 200px !important;
+}
+
+#number-contract-treaty-id,
+#counterparty-treaty-id,
+#term-of-contract-treaty-id {
+  margin: 5px;
+  padding: 5px;
+}
+
+#treaty-number-contract-select,
+#treaty-counterparty-select {
+  margin: 0 0 0 5px;
+}
+
+#treaty-directory-table {
+  overflow: auto;
+  max-height: 70vh;
+}
+
+.table-th-sticky-second-row {
+  top: 38px;
+}
+
+.upper-treaty-directory-save-panel {
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.table-td-colspan-blue-background {
+  background: #e7f3ff;
+}
+
+.table-td-colspan-blue-font {
+  color: #174497;
+  font-weight: 600;
+}
+
+.table-td-colspan-red-font {
+  color: #bd0707;
+  font-weight: 600;
+}
+
+.th-width-auto {
+  width: auto;
+}
+
+.select2-container .select2-selection--single {
+  width: 200px;
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border-color: #999ca3 !important;
+}
+
+.above-table-bar-element .select2-container {
+  width: 200px !important;
+}
+
+#th-amount {
+  max-width: 100px;
+}
+
+.edit__input {
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  border-radius: 3px !important;
+  border-color: #999ca3 !important;
+  width: -webkit-fill-available;
+  padding: 5px;
+}
+
+.edit-amount__input {
+  width: 60px;
+}
+
+.edit-price__input {
+  width: 100px;
+}
+
+.edit-cost__input {
+  width: 100px;
+}
+
+#th-edit__image {
+  width: 16px;
+}
+
+.td-edit__image {
+  width: 27px;
+  background: #e4efff;
+  padding: 4px 4px;
+  border-radius: 3px;
+  background-color: #eaf0ff;
+  border: 1px solid #999ca3;
+  cursor: pointer;
+}
+
+.td-edit__image:active {
+  background-color: #d6d7d8;
+}
+
+.kind-service__td {
+  max-width: 200px;
+}
+
+.contract-name__td {
+  max-width: 120px;
+}
+
+.th-head-cost-services {
+  min-width: 615px;
+}
+
+.table-th-sticky-second-row {
+  width: auto;
+}
+
+.th-head-article-budget {
+  min-width: 200px;
+}
+
+.selected-td {
+  background: #d3f1dc !important;
+}

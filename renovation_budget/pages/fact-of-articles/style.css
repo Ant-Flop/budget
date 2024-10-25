@@ -1,0 +1,128 @@
+#common-report-button {
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 6px 10px;
+    margin: 0 0 0 10px;
+    background-color: #eaf0ff !important;
+    border: 1px solid #919ab1 !important;
+    width: 150px;
+    float: right;
+    margin: 10px;
+}
+
+#start-date-fact-of-article-input, #end-date-fact-of-article-input,  #plane-of-budget-fact-of-article-input,
+#plane-write-off-of-budget-fact-of-article-input, #deviation-plan-input, #percentage-of-completion-budget-input, #all-fact-sum-input {
+    background-color: #f4f8ff !important;
+    border: 1px solid #919ab1 !important;
+    color: #444;
+    height: 28px !important;
+    border-radius: 3px !important;
+    margin: 0 0 0 5px;
+    font-family: system-ui, serif;
+    padding: 0 0 0 5px;
+    width: 250px;
+    height: 30px !important;
+    text-align: center;
+}
+
+
+.select2-container .select2-selection--single, #info-number-contract-fact-of-article-id .select2-selection--multiple {
+    width: 350px;
+    background-color: #f4f8ff !important;
+    border: 1px solid #051225 !important;
+    height: 30px !important;
+    border-radius: 3px !important;
+    border-color: #999ca3 !important;
+}
+
+#info-number-contract-fact-of-article-id .select2-selection--multiple {
+    width: 700px !important;
+    height: 70px !important;
+    max-width: 700px !important;
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    height: -webkit-fill-available;
+}
+
+.select2-dropdown--below {
+    width: 350px !important;
+}
+
+.above-table-bar {
+    display: flex;
+    flex-wrap: wrap;
+    color: #444;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.above-table-bar-element {
+    margin: 5px 0 0 0;
+}
+
+
+#fact-of-articles-table {
+    margin: 10px 0 0 0;
+}
+
+#start-date-fact-of-article-id, #end-date-fact-of-article-input, #subsection-fact-of-article-id, #article-fact-of-article-id,
+#info-number-contract-fact-of-article-id, #plane-of-budget-fact-of-article-id,
+#plane-write-off-of-budget-fact-of-article-id, #deviation-plan-id, #percentage-of-completion-budget-id, #all-fact-sum-id {
+    margin: 0 0 0 10px;
+}
+
+#table-th-id-id {
+    width: 12vh;
+}
+
+#foot-bar {
+    display: flex;
+    float: left;
+}
+
+#fact-of-articles-table table {
+    max-height: 30vh;
+}
+
+
+
+#foot-table table {
+    float: left;
+    margin: 10px 0 0 10px;
+    font-family: system-ui, serif;
+}
+
+#foot-table table th {
+    width: auto;
+    min-width: 15px;
+    background: #f4f8ff;
+    font-weight: 500;
+}
+
+.foot-table-first-elem, #foot-table-footer-th-left-border {
+    border-left: 1px solid !important;
+}
+
+.foot-table-footer-th {
+    border-top: 0;
+    border-bottom: 1px solid;
+}
+
+.main-content {
+    overflow: auto;
+    max-height: 70vh;
+}
+
+#spinner-loader-id {
+    padding: 10px 0 0 0;
+    visibility: hidden;
+    min-height: 80px;
+}
+
+
+
+
+
+

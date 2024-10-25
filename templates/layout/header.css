@@ -1,0 +1,80 @@
+.header-navbar-content-right {
+	right: 0;
+    margin-right: auto;
+}
+
+.header a {
+    float: left;
+    color: white;
+	font-size: 15px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.header-navbar {
+    float: left;
+    overflow: hidden;
+}
+
+.header-navbar .header-navbar__button {
+    padding: 14px 16px;
+    border: none;
+    outline: none;
+    color: white;
+	font-size: 15px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.header a:hover, .header-navbar:hover .header-navbar__button {
+    background-color: #0c2b57;
+}
+
+.header-navbar-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+	border: 1px solid rgba(0,0,0,.15);
+    border-radius: 0.25rem;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.header-navbar-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.header-navbar-content a:hover {
+    background-color: #ddd;
+}
+
+.header-navbar:hover .header-navbar-content {
+    display: block;
+}
+
+.header-logo {
+	display: flex;
+	margin-left: 28%;
+    margin-right: auto;
+    font-size: 1.1rem;
+	color: rgb(243, 237, 237);
+}
+
+.header-logo__img {
+	width: 25px;
+	margin-right: 10px;
+}
+
+.header-logo__text {
+	margin-top: auto;
+    margin-bottom: auto;
+}
+
+

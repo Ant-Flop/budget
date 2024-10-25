@@ -1,0 +1,111 @@
+body {
+    background: #0d274c;
+}
+
+.main {
+    padding-top: 100px;
+    margin: auto;
+    flex: 1 1 auto;
+}
+
+.login-form {
+    background: #f1f1f1;
+    max-width: 360px;
+    padding: 50px 50px 20px 50px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(207 207 207);
+}
+
+.login-form-header {
+    margin: 20px 0;
+}
+
+.login-form-footer {
+    margin: 20px 0 0;
+}
+
+.login-form button,
+.login-form input {
+    background: #f2f2f2;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 5px 0;
+    border-radius: 5px;
+}
+
+.login-form input {
+    background-color: #fbfbfb;
+    border: 1px solid;
+    border-color: #999ca3;  
+}
+
+.login-form input:focus {
+    box-shadow: 0 0 6px 0 rgb(159 191 255);
+}
+
+.login-form button {
+    /* background: #1a3968; */
+    background: #1d4074;
+    color: #fff;
+}
+
+
+.login-form button:hover {
+    background: #183766;
+    color: #fff;
+    box-shadow: 0 0 4px 0 rgb(153 153 153);
+}
+
+
+
+.login-form__img {
+    width: 50px;
+    border: 1px solid #cadfc0;
+    border-radius: 8px;
+    background: #f9fff5;
+    padding: 4px;
+    float: left;
+}
+
+.login-form__select {
+    float: left;
+    
+}
+
+.login-form-title {
+    margin: 0px 55px 0;
+    font-size: 15px;
+}
+
+.select2 {
+    float: left !important;
+    margin: 0 5px 5px 5px !important;
+   
+}
+
+.select2-container .select2-selection--single {
+    width: 170px !important;
+    background-color: #fbfbfb !important;
+    
+}
+
+
+.select2-dropdown  {
+    width: 170px !important;
+}
+
+.select2-selection__arrow {
+    left: 145px;
+}
+
+.login-form-warning-field {
+    height: 40px;
+    visibility: hidden;
+    margin: 5px 0 0;
+    padding: 10px;
+    background: #fff0ee;
+    color: #585858;
+    border: 1px solid #ddcdcd;
+    border-radius: 5px;
+}

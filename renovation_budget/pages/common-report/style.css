@@ -1,0 +1,65 @@
+.above-table-bar {
+    display: flex;
+    flex-wrap: wrap;
+    color: #444;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.above-table-bar-element {
+    margin: 5px 0 0 0;
+}
+
+#start-date-filter-id, #end-date-filter-id {
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.select2-container .select2-selection--single, #start-date-id, #end-date-id {
+    width: 160px;
+    padding: 5px;
+    font-size: 14px;
+    background-color: #f4f8ff  !important;
+    border: 1px solid #99a6b6 !important;
+    color: #444;
+    height: 30px !important;
+    border-radius: 3px !important;
+    text-align: center;
+}
+
+#main-report-table {
+    max-height: 55vh;
+    overflow-y: auto;
+}
+
+.table-th-sticky-second-row {
+    top: 38px;
+}
+
+#arrow-back__img-id {
+    width: 53px;
+}
+
+/* .header-logo {
+    display: flex;
+    margin-left: 39.4%;
+    margin-right: auto;
+    font-size: 1.1rem;
+    color: rgb(243, 237, 237);
+} */
+
+.th-article-name {
+    min-width: 200px;
+}
+
+.common-border__td {
+    border-width: 1px 1px 1px 0;
+}
+
+#spinner-loader-id {
+    padding: 20px 0 0 0;
+    visibility: hidden;
+    min-height: 80px;
+}
+

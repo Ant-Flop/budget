@@ -1,0 +1,42 @@
+.rowspan__td {
+    border-width: 1px 1px 1px 0 !important;
+}
+
+.table-column-id {
+    width: auto;
+}
+
+.table-column-actions {
+    width: auto;
+    min-width: 75px;
+}
+
+.table-column-service {
+    min-width: 180px;
+}
+
+.table-column-article {
+    min-width: 180px;
+}
+
+.switch-panel {
+    background: #cad7ef;
+    border: 0;
+}
+
+.red {
+    background-color: #fddada;
+}
+
+.go-back {
+    font-size: 12pt;
+    padding: 15px 0 0 0;
+}
+
+#spinner-loader-id {
+    padding: 24px 0 0 0 !important;
+}
+
+.above-table-bar {
+    padding: 0 0 10px 0;
+}

@@ -1,0 +1,299 @@
+.main-header-title {
+  padding: 0 5px 0 0;
+}
+
+.main-header-filter {
+  width: 200px;
+  padding: 12px 200px 0 0;
+  margin: 0 12px 0 5px;
+}
+
+.main-header-link {
+  width: 170px;
+  padding: 12px 10px 0 0;
+  margin: 0 0 0 10px;
+}
+
+.main-header-link button {
+  height: 30px;
+}
+
+.select2-container .select2-selection--single {
+  width: 210px;
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border-color: #999ca3 !important;
+}
+
+.select2-dropdown {
+  width: 210px !important;
+}
+
+.select2-selection__arrow {
+  left: 185px;
+}
+
+#main-table .service__table,
+#main-table .article-name__table {
+  white-space: normal;
+}
+
+#main-table .hierarchy-sections {
+  text-align: center !important;
+  padding: 2px;
+}
+
+th {
+  white-space: normal;
+  padding: 8px 5px;
+  font-size: 12px;
+}
+
+#main-table thead tr:first-child th {
+  white-space: nowrap !important;
+}
+
+#main-table tbody td {
+  word-break: normal !important;
+  padding: 10px 10px;
+}
+
+#main-table tbody td:nth-child(2n + 8) {
+  padding: 7px 35px;
+}
+
+#main-table tbody td:nth-child(2n + 9) {
+  padding: 7px 40px;
+}
+
+/* background-color: #cddaf5; */
+
+/* background-color: #b9caed; */
+
+#main-table thead tr:first-child th:nth-child(n + 12):nth-child(-n + 12),
+#main-table thead tr:first-child th:nth-child(n + 14):nth-child(-n + 14),
+#main-table thead tr:first-child th:nth-child(n + 16):nth-child(-n + 16),
+#main-table thead tr:first-child th:nth-child(n + 20):nth-child(-n + 20),
+#main-table thead tr:first-child th:nth-child(n + 22):nth-child(-n + 22),
+#main-table thead tr:first-child th:nth-child(n + 24):nth-child(-n + 24),
+#main-table thead tr:first-child th:nth-child(n + 28):nth-child(-n + 28),
+#main-table thead tr:first-child th:nth-child(n + 30):nth-child(-n + 30),
+#main-table thead tr:first-child th:nth-child(n + 32):nth-child(-n + 32),
+#main-table thead tr:first-child th:nth-child(n + 36):nth-child(-n + 36),
+#main-table thead tr:first-child th:nth-child(n + 38):nth-child(-n + 38),
+#main-table thead tr:first-child th:nth-child(n + 40):nth-child(-n + 40),
+#main-table thead tr:last-child th:nth-child(n + 9):nth-child(-n + 10),
+#main-table thead tr:last-child th:nth-child(n + 13):nth-child(-n + 14),
+#main-table thead tr:last-child th:nth-child(n + 17):nth-child(-n + 18),
+#main-table thead tr:last-child th:nth-child(n + 25):nth-child(-n + 26),
+#main-table thead tr:last-child th:nth-child(n + 29):nth-child(-n + 30),
+#main-table thead tr:last-child th:nth-child(n + 33):nth-child(-n + 34),
+#main-table thead tr:last-child th:nth-child(n + 41):nth-child(-n + 42),
+#main-table thead tr:last-child th:nth-child(n + 45):nth-child(-n + 46),
+#main-table thead tr:last-child th:nth-child(n + 49):nth-child(-n + 50),
+#main-table thead tr:last-child th:nth-child(n + 57):nth-child(-n + 58),
+#main-table thead tr:last-child th:nth-child(n + 61):nth-child(-n + 62),
+#main-table thead tr:last-child th:nth-child(n + 65):nth-child(-n + 66),
+#main-table tbody td:nth-child(n + 16):nth-child(-n + 17),
+#main-table tbody td:nth-child(n + 20):nth-child(-n + 21),
+#main-table tbody td:nth-child(n + 24):nth-child(-n + 25),
+#main-table tbody td:nth-child(n + 32):nth-child(-n + 33),
+#main-table tbody td:nth-child(n + 36):nth-child(-n + 37),
+#main-table tbody td:nth-child(n + 40):nth-child(-n + 41),
+#main-table tbody td:nth-child(n + 48):nth-child(-n + 49),
+#main-table tbody td:nth-child(n + 52):nth-child(-n + 53),
+#main-table tbody td:nth-child(n + 56):nth-child(-n + 57),
+#main-table tbody td:nth-child(n + 64):nth-child(-n + 65),
+#main-table tbody td:nth-child(n + 68):nth-child(-n + 69),
+#main-table tbody td:nth-child(n + 72):nth-child(-n + 73) {
+  background-color: #e3eaf7;
+}
+
+#main-table thead tr:first-child th:nth-child(n + 13):nth-child(-n + 13),
+#main-table thead tr:first-child th:nth-child(n + 15):nth-child(-n + 15),
+#main-table thead tr:first-child th:nth-child(n + 17):nth-child(-n + 17),
+#main-table thead tr:first-child th:nth-child(n + 21):nth-child(-n + 21),
+#main-table thead tr:first-child th:nth-child(n + 23):nth-child(-n + 23),
+#main-table thead tr:first-child th:nth-child(n + 25):nth-child(-n + 25),
+#main-table thead tr:first-child th:nth-child(n + 29):nth-child(-n + 29),
+#main-table thead tr:first-child th:nth-child(n + 31):nth-child(-n + 31),
+#main-table thead tr:first-child th:nth-child(n + 33):nth-child(-n + 33),
+#main-table thead tr:first-child th:nth-child(n + 37):nth-child(-n + 37),
+#main-table thead tr:first-child th:nth-child(n + 39):nth-child(-n + 39),
+#main-table thead tr:first-child th:nth-child(n + 41):nth-child(-n + 41),
+#main-table thead tr:last-child th:nth-child(n + 11):nth-child(-n + 12),
+#main-table thead tr:last-child th:nth-child(n + 15):nth-child(-n + 16),
+#main-table thead tr:last-child th:nth-child(n + 19):nth-child(-n + 20),
+#main-table thead tr:last-child th:nth-child(n + 27):nth-child(-n + 28),
+#main-table thead tr:last-child th:nth-child(n + 31):nth-child(-n + 32),
+#main-table thead tr:last-child th:nth-child(n + 35):nth-child(-n + 36),
+#main-table thead tr:last-child th:nth-child(n + 43):nth-child(-n + 44),
+#main-table thead tr:last-child th:nth-child(n + 47):nth-child(-n + 48),
+#main-table thead tr:last-child th:nth-child(n + 51):nth-child(-n + 52),
+#main-table thead tr:last-child th:nth-child(n + 59):nth-child(-n + 60),
+#main-table thead tr:last-child th:nth-child(n + 63):nth-child(-n + 64),
+#main-table thead tr:last-child th:nth-child(n + 67):nth-child(-n + 68),
+#main-table tbody td:nth-child(n + 18):nth-child(-n + 19),
+#main-table tbody td:nth-child(n + 22):nth-child(-n + 23),
+#main-table tbody td:nth-child(n + 26):nth-child(-n + 27),
+#main-table tbody td:nth-child(n + 34):nth-child(-n + 35),
+#main-table tbody td:nth-child(n + 38):nth-child(-n + 39),
+#main-table tbody td:nth-child(n + 42):nth-child(-n + 43),
+#main-table tbody td:nth-child(n + 50):nth-child(-n + 51),
+#main-table tbody td:nth-child(n + 54):nth-child(-n + 55),
+#main-table tbody td:nth-child(n + 58):nth-child(-n + 59),
+#main-table tbody td:nth-child(n + 66):nth-child(-n + 67),
+#main-table tbody td:nth-child(n + 70):nth-child(-n + 71),
+#main-table tbody td:nth-child(n + 74):nth-child(-n + 75) {
+  background-color: #f7ebe3;
+}
+
+#main-table thead tr:first-child th:nth-child(10),
+#main-table thead tr:first-child th:nth-child(18),
+#main-table thead tr:first-child th:nth-child(26),
+#main-table thead tr:first-child th:nth-child(34),
+#main-table thead tr:last-child th:nth-child(n + 5):nth-child(-n + 6),
+#main-table thead tr:last-child th:nth-child(n + 21):nth-child(-n + 22),
+#main-table thead tr:last-child th:nth-child(n + 37):nth-child(-n + 38),
+#main-table thead tr:last-child th:nth-child(n + 53):nth-child(-n + 54),
+#main-table tbody td:nth-child(n + 12):nth-child(-n + 13),
+#main-table tbody td:nth-child(n + 28):nth-child(-n + 29),
+#main-table tbody td:nth-child(n + 44):nth-child(-n + 45),
+#main-table tbody td:nth-child(n + 60):nth-child(-n + 61) {
+  background-color: #cad6ef;
+}
+
+#main-table thead tr:first-child th:nth-child(11),
+#main-table thead tr:first-child th:nth-child(19),
+#main-table thead tr:first-child th:nth-child(27),
+#main-table thead tr:first-child th:nth-child(35),
+#main-table thead tr:last-child th:nth-child(n + 7):nth-child(-n + 8),
+#main-table thead tr:last-child th:nth-child(n + 23):nth-child(-n + 24),
+#main-table thead tr:last-child th:nth-child(n + 39):nth-child(-n + 40),
+#main-table thead tr:last-child th:nth-child(n + 55):nth-child(-n + 56),
+#main-table tbody td:nth-child(n + 14):nth-child(-n + 15),
+#main-table tbody td:nth-child(n + 30):nth-child(-n + 31),
+#main-table tbody td:nth-child(n + 46):nth-child(-n + 47),
+#main-table tbody td:nth-child(n + 62):nth-child(-n + 63) {
+  background-color: #efd6ca;
+}
+
+#main-table thead tr:first-child th:nth-child(8),
+#main-table thead tr:last-child th:nth-child(n + 1):nth-child(-n + 2),
+#main-table tbody td:nth-child(n + 8):nth-child(-n + 9) {
+  background-color: #c1cdeb;
+}
+
+#main-table thead tr:first-child th:nth-child(9),
+#main-table thead tr:last-child th:nth-child(n + 3):nth-child(-n + 4),
+#main-table tbody td:nth-child(n + 10):nth-child(-n + 11) {
+  background-color: #e6c0b9;
+}
+
+#main-table tbody td:nth-child(n + 8):nth-child(-n + 75) {
+  white-space: nowrap;
+}
+
+.hierarchy-sections {
+  background-color: #e3e9f6 !important;
+}
+
+#main-table table tbody tr .main-section__table {
+  background-color: #d2dbed !important;
+}
+
+#main-table table tbody tr .section__table {
+  background-color: #e1e7f5 !important;
+}
+
+#main-table table tbody tr .subsection__table {
+  background-color: #eef1fa !important;
+}
+
+#main-table table tbody .hover__table__tr:hover td {
+  background: #eef1f6;
+  color: #000;
+}
+
+#main-table thead .sticky-table-column {
+  z-index: 3;
+  left: 0;
+  top: 0;
+  position: relative !important;
+}
+
+#main-table thead tr:last-child th {
+  top: 33px;
+  min-width: 125px;
+}
+
+#main-table .main-table-th {
+  z-index: 4 !important;
+  border-width: 1px 1px 1px 0;
+}
+
+#main-table tbody .sticky-table-column {
+  z-index: 2;
+  left: 0;
+  top: 0;
+  position: relative !important;
+}
+
+#main-table th {
+  background: #aac0ea;
+}
+
+.upper-save-panel {
+  min-height: 20px;
+  margin: 0 0 0 20px;
+  width: 180px;
+}
+
+.main-header-title {
+  margin: 10px 0 0 100px;
+}
+
+.sign-edit__image {
+  width: 8px;
+}
+
+.td-toolbar {
+  display: flex;
+}
+
+#main-table-th-id,
+#main-table-th-actions {
+  width: auto;
+}
+
+.writing-off-costs__table__td {
+  padding: 7px 10px 7px 10px !important;
+}
+
+.writing-off-costs__table__td input {
+  max-width: 120px;
+  text-align: center;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 13px;
+  background-color: #eef1f6;
+  height: 40px !important;
+  border-radius: 3px !important;
+  margin: 0;
+  border: 1px solid #99a6b6 !important;
+}
+
+.hover__table__tr:hover .writing-off-costs__table__td input {
+  background: #eef1f6;
+  color: #000;
+}
+
+.sign_vat {
+  background-color: #fccaca !important;
+}
+
+table td {
+  word-break: break-word;
+}

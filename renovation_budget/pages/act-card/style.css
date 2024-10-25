@@ -1,0 +1,234 @@
+.above-table-bar {
+  display: flex;
+  color: #444;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+.above-table-bar-element {
+  margin: 5px 0 0 0;
+}
+
+#card-act-table {
+  overflow: auto;
+  max-height: 70vh;
+}
+
+#act-card-number-contract-select,
+#act-card-counterparty-select,
+#act-card-number-of-act-input,
+#act-card-date-of-act-input,
+#act-card-account-of-act-input,
+#act-card-number-account-of-act-input {
+  margin: 0 0 0 5px;
+  font-family: system-ui, serif;
+}
+
+#act-card-number-of-act-input,
+#act-card-date-of-act-input,
+#act-card-account-of-act-input,
+#act-card-number-account-of-act-input {
+  padding: 0 0 0 5px;
+}
+
+#number-contract-act-card-id,
+#counterparty-act-card-id,
+#number-of-act-edit-act-card-id {
+  margin: 5px;
+  padding: 5px;
+}
+
+#number-of-act-act-card-id,
+#date-of-act-act-card-id,
+#account-of-act-act-card-id,
+#number_account-of-act-act-card-id {
+  margin: 5px;
+  padding: 4px;
+}
+
+#td-lower-border {
+  border-width: 1px 1px 1px 0;
+}
+
+.table-th-sticky-second-row {
+  top: 38px;
+}
+
+.table-td-colspan-blue-background {
+  background: #e7f3ff;
+}
+
+.table-td-colspan-yellow-background {
+  background-color: #fffbea;
+}
+
+.table-td-colspan-red-font {
+  color: #bd0707;
+  font-weight: 600;
+}
+
+.table-td-colspan-blue-font {
+  color: #174497;
+  font-weight: 600;
+}
+
+td input {
+  padding: 5px;
+}
+
+.th-width-auto {
+  width: auto;
+}
+
+.td-nowrap {
+  white-space: nowrap;
+}
+
+.th-put-width-for-footer {
+  background: #ffffff;
+  color: #ffffff;
+  border-width: 0;
+}
+
+.th-name-service {
+  max-width: 450px;
+  min-width: 450px;
+}
+
+.table-td-type-equipment {
+  display: flex;
+  /* padding: 4px 180px 4px 0; */
+}
+
+.select2-container .select2-selection--single,
+#act-card-number-of-act-input,
+#act-card-date-of-act-input,
+#act-card-account-of-act-input,
+#act-card-number-account-of-act-input {
+  width: 200px;
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border-color: #999ca3 !important;
+}
+
+#table-tbody-id .select2-container .select2-selection--single {
+  width: 420px !important;
+}
+
+.select2-dropdown {
+  width: 420px !important;
+}
+
+#table-tbody-id .select2-selection__arrow {
+  left: 390px;
+}
+
+#act-card-number-of-act-input,
+#act-card-date-of-act-input {
+  height: 30px;
+}
+
+.lower-art-card-save-panel {
+  display: flex;
+  float: right;
+  margin: 0 10px 0 0;
+}
+
+#label-act-card-save-button,
+#label-act-card-spend-button {
+  background: #ebfbeb;
+  padding: 10px;
+  margin: 5px 20px 0 0;
+  border-radius: 5px;
+}
+
+#act-card-save-button,
+#act-card-spend-button {
+  margin: 5px 0 0 0;
+  float: right;
+}
+
+.input-price-of-service-no-pdv,
+.input-cost-of-materials-no-pdv,
+.input-amount {
+  background-color: #f4f8ff !important;
+  border: 1px solid #999ca3 !important;
+  height: 25px !important;
+  border-radius: 3px !important;
+  font-family: system-ui, serif;
+  width: 80px;
+}
+
+.select-tooltip {
+  height: 36px;
+  white-space: nowrap;
+  padding: 7px 0px 0px 0px;
+  margin: 0 4px 5px;
+  text-align: justify;
+  overflow: hidden;
+  background-color: #f1f6ff;
+  border: 1px solid;
+  border-color: #aaa;
+}
+
+.type-of-equipment__th {
+  width: 430px;
+  min-width: 430px;
+}
+
+.table-td-type-equipment select {
+  width: 420px !important;
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  height: 30px !important;
+  border-radius: 3px !important;
+  border-color: #999ca3 !important;
+  text-align: center;
+}
+
+@media screen and (max-width: 1800px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+@media screen and (max-width: 1700px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+@media screen and (max-width: 1600px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .type-of-equipment__th {
+    min-width: 430px;
+  }
+}

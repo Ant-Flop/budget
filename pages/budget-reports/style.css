@@ -1,0 +1,126 @@
+.title {
+    height: 50px;
+    border-right: 1px solid #dadde1;
+    border-bottom: 1px solid #dadde1;
+}   
+
+.main {
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 50px;
+    padding: 0;
+}
+
+.sub-title {
+    border-bottom: 1px solid #dadde1;
+}
+
+.side-bar {
+    padding: 5px 5px 0 5px;
+    border-right: 1px solid #dadde1;
+}
+
+.side-bar ul {
+    text-align: left;
+}
+
+.side-bar-item {
+    padding: 5px 5px;
+    margin: 3px 0 0 0;
+    color: #40464f;
+    border-radius: 3px;
+}
+
+.side-bar-item:hover {
+    cursor: pointer;
+    background-color: #e5e6eb;
+}
+
+.side-bar-item-selected {
+    background-color: #e5e6eb;
+    color: #334b80;
+}
+
+.main-content {
+    padding: 0;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.text-2 {
+    margin: 0;
+}
+
+.above-table-bar {
+    margin: 4px;
+    padding: 6px 5px 5px 5px;
+    flex-wrap: nowrap;
+}
+
+.above-table-bar-element {
+    margin: 9px 175px 0 0;
+    width: 50px;
+}
+
+.select2-container .select2-selection--single {
+    width: 210px;
+    background-color: #f4f8ff !important;
+    border: 1px solid #051225 !important;
+    height: 30px !important;
+    border-radius: 3px !important;
+    border-color: #999ca3 !important;
+}
+
+.select2-selection__arrow {
+    left: 185px;
+}
+
+.select2-dropdown {
+    width: 210px !important;
+}
+
+.main-table input {
+    width: 200px;
+    font-size: 14px;
+    background-color: #f4f8ff !important;
+    border: 1px solid #051225 !important;
+    color: #444;
+    height: 30px !important;
+    border-radius: 3px !important;
+    text-align: center;
+    border-color: #999ca3 !important;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.main-table span {
+    margin-left: 10px;
+}
+
+.main-table {
+    overflow: auto;
+}
+
+.main-table th {
+    width: auto;
+}
+
+.main-table td {
+    white-space: nowrap;
+    padding: 5px 50px 5px 50px;
+}
+
+.main-table .last-th {
+    width: 1000vh;
+}
+
+#main-table {
+    overflow: auto;
+    max-width: 1100px;
+}
+
+tfoot th {
+    text-align: left !important;
+}
+

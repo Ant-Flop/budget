@@ -1,0 +1,300 @@
+.modal-window {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.modal-window-content {
+  border-radius: 4px;
+  width: 390px;
+  background: #e1eaf7;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%), 0 5px 5px 0 rgb(0 0 0 / 24%);
+  margin: 40px auto 100px;
+}
+
+.modal-window-content .select2-container .select2-selection--single {
+  width: 300px;
+}
+
+.modal-close {
+  margin: -35px -30px 0;
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-input input {
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+  margin: 0 0 20px 0;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #ffffff !important;
+  border: 1px solid #999ca3 !important;
+  height: 40px !important;
+  border-radius: 3px !important;
+}
+
+.modal-button button {
+  padding: 8px;
+  background: #c1d8f9;
+  border-color: #999ca3;
+  cursor: pointer;
+  font-size: 14px;
+  border-width: 1px;
+  border-radius: 3px;
+  width: 70%;
+}
+
+.modal-tooltip {
+  visibility: hidden;
+  position: absolute;
+  left: 550px;
+  margin: -13px 0 0 0;
+  background-color: #fafffe;
+  border: 1px solid;
+  border-color: #c8d3d1;
+  width: 240px;
+  height: 60px;
+  padding: 23px 6px 6px 6px;
+  border-radius: 3px;
+}
+
+#modal-search-bank-register-start-date__input,
+#modal-search-bank-register-end-date__input,
+#modal-search-bank-register-sum__input {
+  background-color: #f4f8ff !important;
+  border: 1px solid #051225 !important;
+  color: #444;
+  height: 30px !important;
+  width: 150px;
+  border-radius: 3px !important;
+  text-align: center;
+  border-color: #999ca3 !important;
+  padding: 0 5px 0 0;
+}
+
+#modal-search-bank-register-start-date__input,
+#modal-search-bank-register-sum__input {
+  margin: 0 0 0 10px;
+}
+
+#modal-search-bank-register-end-date__input {
+  margin: 0 0 0 10px;
+}
+
+.modal-tooltip-wrapper:hover .modal-tooltip {
+  visibility: visible;
+}
+
+#modal-window-search-bank-register .modal-window-content {
+  width: 1500px;
+  height: inherit;
+  max-height: 92%;
+}
+
+#modal-window-search-bank-register
+  .modal-window-content
+  .select2-selection--single {
+  width: 210px !important;
+}
+
+#modal-window-search-bank-register
+  .modal-window-content
+  .select2-selection__arrow {
+  width: 10px !important;
+}
+
+.modal-header-bar {
+  display: inline-flex;
+  padding: 15px;
+}
+
+#modal-window-search__table {
+  max-height: 75%;
+  overflow: auto;
+}
+
+#modal-window-search__table:hover {
+  cursor: pointer;
+}
+
+.modal-header-bar .select2-container {
+  width: 210px !important;
+}
+
+#modal-window-search-banks-register-table .modal-table-column-id,
+#modal-window-search-banks-register-table .modal-table-column-counterparty,
+#modal-window-search-banks-register-table .modal-table-column-date,
+#modal-window-search-banks-register-table .modal-table-column-old-code,
+#modal-window-search-banks-register-table .modal-table-column-new-code,
+#modal-window-search-banks-register-table .modal-table-column-sum,
+#modal-window-search-banks-register-table .modal-table-column-oper-number {
+  width: auto;
+  white-space: nowrap;
+}
+
+.modal-window-content td {
+  word-break: break-word;
+}
+
+#modal-window-search-banks-register-table .table-column-id {
+  min-width: 35px;
+}
+
+#modal-window-search-banks-register-table .table-column-oper-number {
+  min-width: 140px;
+}
+
+#modal-window-search-banks-register-table .table-column-oper-number {
+  min-width: 140px;
+}
+
+#modal-window-search-banks-register-table .table-column-date {
+  min-width: 100px;
+}
+
+#modal-window-search-banks-register-table .table-column-old-code {
+  min-width: 140px;
+}
+
+#modal-window-search-banks-register-table .table-column-new-code {
+  min-width: 140px;
+}
+
+#modal-window-search-banks-register-table .table-column-sum {
+  min-width: 110px;
+}
+
+#modal-window-search-banks-register-table .table-column-counterparty {
+  min-width: 110px;
+}
+
+@media screen and (max-width: 1200px) {
+  .modal-tooltip-wrapper:hover .modal-tooltip {
+    visibility: hidden;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1300px) {
+  .modal-tooltip {
+    left: 200px;
+  }
+}
+
+@media screen and (min-width: 1300px) and (max-width: 1400px) {
+  .modal-tooltip {
+    left: 250px;
+  }
+}
+
+@media screen and (min-width: 1400px) and (max-width: 1500px) {
+  .modal-tooltip {
+    left: 300px;
+  }
+}
+
+@media screen and (min-width: 1500px) and (max-width: 1600px) {
+  .modal-tooltip {
+    left: 350px;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1700px) {
+  .modal-tooltip {
+    left: 400px;
+  }
+}
+
+@media screen and (min-width: 1700px) and (max-width: 1800px) {
+  .modal-tooltip {
+    left: 450px;
+  }
+}
+
+@media screen and (min-width: 1800px) and (max-width: 1900px) {
+  .modal-tooltip {
+    left: 500px;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  #modal-window-search__table {
+    max-height: 60%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  #modal-window-search__table {
+    max-height: 70%;
+  }
+}
+
+@media screen and (min-height: 700px) {
+  #modal-window-search__table {
+    max-height: 75%;
+  }
+}
+
+@media screen and (min-height: 800px) {
+  #modal-window-search__table {
+    max-height: 80%;
+  }
+}
+
+.modal-window-set-sum__table {
+  background: #f7fbff;
+  overflow-x: scroll;
+  margin: 0 0 10px 0;
+}
+
+#modal-window-edit-budget-plan-implementation .modal-window-content {
+  width: 1500px;
+}
+
+.modal-window-set-sum__table th {
+  min-width: 130px;
+}
+
+.modal-window-set-sum__table td {
+  white-space: nowrap;
+  padding: 1px;
+}
+
+.modal-window-set-sum__table input {
+  margin: 0;
+  border: 0px solid #999ca3 !important;
+}
+
+.modal__table__input {
+  width: 20px;
+}
+
+#modal-button-sum-save {
+  max-width: 250px !important;
+}
+
+.modal-window-set-sum__table table tbody tr:hover td {
+  background: #fff;
+  color: #000;
+}
+
+.modal-selected-td {
+  background: #d3f1dc !important;
+}
